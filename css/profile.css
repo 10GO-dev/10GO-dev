@@ -1,0 +1,104 @@
+body{
+    background-image: url(/img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+ text-align: center;
+ background-color: #6EDCD9;
+ width: 40rem;
+ margin: auto;
+ border-radius: 20px 20px 0 0;
+ padding: 15px 10px;
+}
+
+.profile-Img {
+    width: 250px;
+    border: 1px outset rgb(74, 74, 74);
+    border-radius: 50%;
+}
+
+.info {
+    background-color: #B9F8D3;
+    width: 40rem;
+    margin: -20px auto;
+    padding: 30px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+p img {
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hobbies {
+    margin-top: -10px;
+}
+
+li{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+li:before {
+    width: 1px;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.learn:before {
+    content: url(../img/icons/study-icon.png);
+}
+.basket:before {
+    content: url(../img/icons/basket-icon.png);
+}
+.games:before {
+    content: url(../img/icons/game-icon.png);
+}
+
+.link-redes img {
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
+}
+
+.tele-gif{
+    border-radius: 50%;
+}
+
+.tel-icon {
+    display: flex;
+    align-items: center;
+}
+.tel-icon::before {
+    content: url(../img/icons/telephone-icon.png) ;
+    margin: 0 10px;
+    
+    
+}
+.addr-icon {
+    display: flex;
+    align-items: center;
+}
+.addr-icon::before {
+    content: url(../img/icons/addr-icon.png) ;
+    margin: 0 10px;
+    
+}
+.mail-icon {
+    display: flex;
+    align-items: center;
+}
+.mail-icon::before {
+    content: url(../img/icons/mail-icon.png) ;
+    margin: 0 10px;
+    
+}
+
